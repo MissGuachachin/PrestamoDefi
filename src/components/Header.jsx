@@ -1,7 +1,10 @@
+import { ConnectKitButton } from "connectkit"
+
 export default function Header() {
     return (
-        <header className="bg-black border-b py-20 px-20">
-            <img src="/EthDefiLogo.jpeg" alt="defi-logo" width={600} />
+        <header className="bg-black px-20 flex justify-between items-center">
+            <img src="/EthDefiLogo.jpeg" alt="defi-logo" width={400} />
+            <ConnectKitButton showBalance />
         </header>
     );
 }
