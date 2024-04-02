@@ -3,6 +3,8 @@ import { WagmiConfig } from "wagmi"
 import { AppLayout } from './components/ui/layouts'
 import { config } from './config/wagmi'
 import { HomePage } from './pages'
+import { NotFoundPage } from './pages'
+import { Alert } from './pages'
 
 function App() {
   
@@ -11,6 +13,8 @@ function App() {
       <ConnectKitProvider>
         <AppLayout>
           <HomePage />
+          <NotFoundPage />
+          <Alert />
         </AppLayout>
       </ConnectKitProvider>
     </WagmiConfig>
