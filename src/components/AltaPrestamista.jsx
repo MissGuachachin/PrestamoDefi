@@ -23,7 +23,7 @@ const AltaPrestamista = ({ altaPrestamista }) => {
             focus:ring-indigo-500 focus:border-transparent transition duration-360 ease-in-out'
       />
 
-      <button onClick={handleAltaPrestamista} className='flex items-center bg-indigo-500 hover:bg-indigo-700 text-white text-l font-bold py-2 px-5  min-w-20 rounded-lg'>
+      <button onClick={handleAltaPrestamista} className='flex items-center bg-indigo-500 hover:bg-indigo-700 text-white text-l font-bold py-2 px-5  min-w-20 rounded-lg disabled:cursor-not-allowed'>
         Dar de Alta
       </button>
     </div>
