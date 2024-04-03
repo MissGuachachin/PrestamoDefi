@@ -7,7 +7,7 @@ export default function Button({ type = 'button', onClick, disabled, children, i
             type={type}
             className="bg-indigo-500 hover:bg-indigo-700
             text-white text-2xl font-bold py-3 px-10  min-w-40 rounded-lg
-            disabled:opacity-75 disabled:cursor-not-allowed"
+            disabled:opacity-75 disable: cursor-not-allowed"
             disabled={disabled}
             onClick={onClick}
         >
