@@ -25,7 +25,7 @@ const OperacionesPrestamosPage = () => {
             <h3 className='font-sans text-2xl items-stretch font-bold text-indigo-600 py-3 flex flex-col'>
               Seleccionar Prestatario:
             </h3>
-              <select className='py-2 px-20 rounded-lg text-gray-400' onChange={(e) => handleSelectPrestatario(e.target.value)}>
+              <select className='py-2 px-40 rounded-lg text-gray-400' onChange={(e) => handleSelectPrestatario(e.target.value)}>
               <option>Seleccionar</option>
               {/* Aquí puedes generar dinámicamente opciones para todos los prestatarios */}
               {/* Ejemplo: <option value="direccion_prestatario">Nombre del Prestatario</option> */}
