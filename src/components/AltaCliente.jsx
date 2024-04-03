@@ -10,7 +10,7 @@ export const AltaCliente = ({ altaCliente }) => {
   };
 
   return (
-    <div className='flex flex-col p-6 py-2 px-12'>
+    <div className='flex flex-col p-6 py-2 px-12  gap-3'>
       <h2 className='font-sans text-2xl items-stretch font-bold text-indigo-600 flex flex-col'>
         Alta de Cliente
       </h2>
@@ -22,7 +22,8 @@ export const AltaCliente = ({ altaCliente }) => {
         className='border border-gray-300 rounded-md w-full px-3 py-2 outline-none focus:ring-2
         focus:ring-indigo-500 focus:border-transparent transition duration-360 ease-in-out'
       />
-      <button onClick={handleAltaCliente} className='flex items-center bg-indigo-500 hover:bg-indigo-700 text-white text-l font-bold py-2 px-5 min-w-20 rounded-lg disabled:cursor-not-allowed'>
+      <button onClick={handleAltaCliente} className='flex bg-indigo-500 hover:bg-indigo-700
+       text-white text-l font-bold py-2 px-5 min-w-20 rounded-lg'>
         Dar de Alta
       </button>
     </div>

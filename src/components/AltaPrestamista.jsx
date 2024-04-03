@@ -10,7 +10,7 @@ const AltaPrestamista = ({ altaPrestamista }) => {
   };
 
   return (
-    <div className='flex flex-col p-4 py-2 px-12'>
+    <div className='flex flex-col p-4 py-2 px-12 gap-3'>
       <h2 className='font-sans text-2xl items-stretch font-bold text-indigo-600 flex flex-col'>
         Alta de Prestamista
       </h2>
