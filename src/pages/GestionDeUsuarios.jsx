@@ -18,7 +18,7 @@ export default function GestionDeUsuarios() {
     
     return (
         <>
-        <section>
+          <section>
             <Title>Gestión de Usuarios</Title>
           </section>
           <section>
@@ -28,7 +28,7 @@ export default function GestionDeUsuarios() {
             <div>
             <AltaCliente altaCliente={handleAltaCliente} nuevoCliente={nuevoCliente}/>
             </div>
-          </section>
-          </>
+           </section>
+         </>
     )
 }
