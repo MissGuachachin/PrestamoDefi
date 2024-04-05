@@ -13,7 +13,7 @@ export default function HomePage() {
           <section className='flex flex-col xl:flex-row py-6 px-10 gap-20'>
             <div className='p-6 bg-blue-200 border shadow rounded-lg w-[500px] sm:w-[700px]'>
               {/* Renderizar el componente GestionDeUsuarios */}
-              <GestionDeUsuarios>Gestión de Usuarios</GestionDeUsuarios>
+              <GestionDeUsuarios />
             </div>
             <div className='p-6 bg-blue-200 border shadow rounded-lg w-[500px] sm:w-[700px]'>
               {/* Renderizar el componente OperacionesPrestamosPage */}
