@@ -6,8 +6,7 @@ import {
   AprobarPrestamo,
   ReembolsarPrestamo,
   LiquidarGarantia,
-  PrestamosCliente
-} from '../components'
+ } from '../components'
 
 
 const OperacionesPrestamosPage = () => {
@@ -38,7 +37,6 @@ const OperacionesPrestamosPage = () => {
             <AprobarPrestamo prestatario={prestatario} />
             <ReembolsarPrestamo prestatario={prestatario} />
             <LiquidarGarantia prestatario={prestatario} />
-            <PrestamosCliente prestatario={prestatario} />
           </div>
               )}
         </div>
