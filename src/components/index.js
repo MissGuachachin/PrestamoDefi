@@ -7,3 +7,4 @@ export { default as SolicitarPrestamo } from './SolicitarPrestamo';
 export { default as AprobarPrestamo } from './AprobarPrestamo';
 export { default as ReembolsarPrestamo } from './ReembolsarPrestamo';
 export { default as LiquidarGarantia } from './LiquidarGarantia';
+export { default as PrestamosCliente } from './PrestamosCliente';
